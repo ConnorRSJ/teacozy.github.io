@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 5;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    text-decoration: underline;
+    display: flex;
+    margin: 0 10px;
+}
+
+main {
+    margin-top: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.mission, .locations {
+    background-position: 50% 50%;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.tea-section {
+    width: 1000px;
+}
+
+.tea-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tea-image {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tea-banner {
+    padding-bottom: 20px;
+}
+
+.locations {
+    height: 500px;
+    background-image: url(../images/img-locations-background.webp);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.locations h2 {
+    text-align: center;
+    background-color: transparent;
+}
+
+.location-containers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: transparent;
+}
+
+.location-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0;
+    gap: 30px;
+    opacity: 1;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright {
+    height: 69px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
